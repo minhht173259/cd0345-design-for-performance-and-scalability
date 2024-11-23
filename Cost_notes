@@ -1,0 +1,15 @@
+Increase Cost Notes: 
+
+To redesign system with bigger expenditure, I suppose to raise up the computing capability. 
+1. EC2 instance type is changed to “c5ad.xlarge”(Compute Optimized), 
+2. Dtabase gets more storage for backups (10000GB)
+3. Route53 adds features for getting lower latency.  
+
+
+
+Decrease Cost Note: 
+1. Using smaller EC2 instance type (t2.2xlarge)
+2. Reducing amount of disk of database backups (1000GB)
+3. Cutting off resources for CloudFront. (Data transfer out to internet (10000 GB per month), Data transfer out to origin (1000 GB per month), Number of requests (HTTPS) (1000000 per month)
+)
+
